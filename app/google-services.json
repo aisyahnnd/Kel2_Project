@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "623610266674",
+    "firebase_url": "https://craftigami-659a2.firebaseio.com",
+    "project_id": "craftigami-659a2",
+    "storage_bucket": "craftigami-659a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623610266674:android:819e5b8e47beef06",
+        "android_client_info": {
+          "package_name": "id.sch.smktelkom_mlg.project.xiirpl402122232.kel2_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623610266674-uu9cvdnb5vijo6lo3rua6l3rui43t1t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": 15
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

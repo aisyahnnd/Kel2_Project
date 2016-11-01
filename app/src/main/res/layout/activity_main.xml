@@ -11,7 +11,9 @@
     tools:context="id.sch.smktelkom_mlg.project.xiirpl402122232.kel2_project.MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
 </RelativeLayout>
