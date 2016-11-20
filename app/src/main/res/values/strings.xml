@@ -17,7 +17,8 @@
         <item>@string/nav_item_tumbuhan</item>
         <item>@string/nav_item_lainnya</item>
 
-    </string-array>Origami Lain-lain
+    </string-array>
+    Origami Lain-lain
 
     <string name="title_lainnya">Origami Tumbuhan</string>
     <string name="title_tumbuhan">Origami Tumbuhan</string>
