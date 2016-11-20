@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">Kel2_Project</string>
+    <string name="app_name">Craftigami</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_hewan">Origami Hewan</string>
+    <string name="nav_item_tumbuhan">Origami Tumbuhan</string>
+    <string name="nav_item_lainnya">Origami Lain-lain</string>
+
+    <!-- navigation drawer item labels -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_hewan</item>
+        <item>@string/nav_item_tumbuhan</item>
+        <item>@string/nav_item_lainnya</item>
+
+    </string-array>Origami Lain-lain
+
+    <string name="title_lainnya">Origami Tumbuhan</string>
+    <string name="title_tumbuhan">Origami Tumbuhan</string>
+    <string name="title_hewan">Origami Hewan</string>
+    <string name="title_home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
