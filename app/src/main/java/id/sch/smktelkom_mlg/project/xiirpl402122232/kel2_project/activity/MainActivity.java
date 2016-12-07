@@ -1,5 +1,6 @@
 package id.sch.smktelkom_mlg.project.xiirpl402122232.kel2_project.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -10,12 +11,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import id.sch.smktelkom_mlg.project.xiirpl402122232.kel2_project.R;
 
 public class MainActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener {
 
+    Button b1;
     private Toolbar mToolbar;
     private FragmentDrawer drawerFragment;
 
@@ -42,8 +45,8 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
+            return true;
+        }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -57,17 +60,23 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
             return true;
         }
 
-        if(id == R.id.action_search){
+        if (id == R.id.action_search) {
             Toast.makeText(getApplicationContext(), "Search action is selected!", Toast.LENGTH_SHORT).show();
             return true;
         }
 
         return super.onOptionsItemSelected(item);
+        }
+
+    @Override
+    public void onClick(View v) {
+
     }
+
     @Override
     public void onDrawerItemSelected(View view, int position) {
         displayView(position);
-    }
+        }
 
     private void displayView(int position) {
         Fragment fragment = null;
@@ -78,16 +87,23 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
                 title = getString(R.string.title_home);
                 break;
             case 1:
-                fragment = new HewanFragment();
+                Intent a = new Intent(MainActivity.this, MainActivity_Hewan.class);
+                startActivity(a);
                 title = getString(R.string.title_hewan);
                 break;
             case 2:
-                fragment = new TumbuhanFragment();
+                Intent b = new Intent(MainActivity.this, MainActivity_Tumbuhan.class);
+                startActivity(b);
                 title = getString(R.string.title_tumbuhan);
                 break;
             case 3:
-                fragment = new LainnyaFragment();
+                Intent c = new Intent(MainActivity.this, MainActivity_Lain.class);
+                startActivity(c);
                 title = getString(R.string.title_lainnya);
+                break;
+            case 4:
+                fragment = new Detail();
+                title = getString(R.string.title_det);
                 break;
             default:
                 break;
@@ -102,5 +118,5 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
             // set the toolbar title
             getSupportActionBar().setTitle(title);
         }
+        }
     }
-}

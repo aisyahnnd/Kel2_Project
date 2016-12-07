@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 
 import id.sch.smktelkom_mlg.project.xiirpl402122232.kel2_project.R;
 
-
 public class HewanFragment extends Fragment {
 
     public HewanFragment() {
@@ -25,7 +24,7 @@ public class HewanFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_hewan, container, false);
 
 
         // Inflate the layout for this fragment

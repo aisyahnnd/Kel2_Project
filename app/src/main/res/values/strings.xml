@@ -9,6 +9,7 @@
     <string name="nav_item_hewan">Origami Hewan</string>
     <string name="nav_item_tumbuhan">Origami Tumbuhan</string>
     <string name="nav_item_lainnya">Origami Lain-lain</string>
+    <string name="nav_item_det">Details</string>
 
     <!-- navigation drawer item labels -->
     <string-array name="nav_drawer_labels">
@@ -16,11 +17,13 @@
         <item>@string/nav_item_hewan</item>
         <item>@string/nav_item_tumbuhan</item>
         <item>@string/nav_item_lainnya</item>
+        <item>@string/nav_item_det</item>
 
     </string-array>
     Origami Lain-lain
 
-    <string name="title_lainnya">Origami Tumbuhan</string>
+    <string name="title_det">Details</string>
+    <string name="title_lainnya">Origami Lain-lain</string>
     <string name="title_tumbuhan">Origami Tumbuhan</string>
     <string name="title_hewan">Origami Hewan</string>
     <string name="title_home">Home</string>

@@ -9,10 +9,13 @@ import android.view.ViewGroup;
 
 import id.sch.smktelkom_mlg.project.xiirpl402122232.kel2_project.R;
 
+/**
+ * Created by Aisyah on 04/12/2016.
+ */
 
-public class LainnyaFragment extends Fragment {
+public class Detail extends Fragment {
 
-    public LainnyaFragment() {
+    public Detail() {
         // Required empty public constructor
     }
 
@@ -25,7 +28,7 @@ public class LainnyaFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_lainnya, container, false);
+        View rootView = inflater.inflate(R.layout.dialog_custom, container, false);
 
 
         // Inflate the layout for this fragment
